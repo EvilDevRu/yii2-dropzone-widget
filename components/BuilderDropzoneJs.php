@@ -7,7 +7,7 @@ use yii\helpers\Json;
 class BuilderDropzoneJs
 {
 
-    public function ArrayToJsObject($array)
+    public static function ArrayToJsObject($array)
     {
         return Json::encode($array);
 
